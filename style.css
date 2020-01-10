@@ -1,0 +1,102 @@
+html {
+  background-color: rebeccapurple;
+}
+body {
+  height: 100%;
+  background-size: cover;
+}
+.icon {
+  margin-right: 10px;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.collapse {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 100px;
+}
+
+figure.image {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+figure .image img {
+  width: 200px;
+}
+
+.notification {
+  margin-top: 20px !important;
+}
+
+.results {
+  max-height: 500px;
+}
+
+.title .icon {
+  margin-left: 15px;
+}
+
+.hero {
+  margin-bottom: 20px;
+}
+
+.forms {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+.dropdown-menu {
+  width: 500px;
+}
+.dropdown-item img {
+  height: 50px;
+  margin-right: 10px;
+}
+.p-5 {
+  padding: 2em;
+}
+.mt-5 {
+  margin-top: 2em;
+}
+.mt-3 {
+  margin-top: 1em;
+}
+.center {
+  text-align: center;
+}
+.title {
+  font-size: 3em;
+}
+.h1 {
+  font-size: 3em;
+}
+.h3 {
+  font-size: 2em;
+}
+.h4 {
+  font-size: 1.5em;
+}
+.h6 {
+  font-size: 1em;
+}
+.is-transparent {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.underline {
+  text-decoration: underline;
+}
+.link {
+  text-decoration: none;
+  color: white;
+}
+.link:hover {
+  color: white;
+}
